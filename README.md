@@ -20,31 +20,6 @@ If your instructor provides the official CSV, replace the included CSV while kee
 
 The generated results in `outputs/` correspond to the included synthetic CSV and may change if you replace it.
 
-## Project structure
-
-```text
-Lab2_Login_Activity_ML/
-├── data/
-│   └── simple_login_activity.csv
-├── outputs/
-│   ├── Lab2_Login_ML_Result.csv
-│   ├── cluster_summary.csv
-│   ├── cluster_vs_label.csv
-│   ├── confusion_matrix.csv
-│   ├── confusion_matrix.png
-│   ├── feature_importance.csv
-│   ├── feature_importance.png
-│   ├── metrics.json
-│   └── new_record_predictions.csv
-├── notebooks/
-│   └── Lab2_Suspicious_Login_Activity.ipynb
-├── src/
-│   └── solve_lab2.py
-├── .gitignore
-├── requirements.txt
-└── README.md
-```
-
 ## Run locally
 
 Python 3.9+ is recommended.
